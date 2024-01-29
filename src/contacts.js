@@ -52,5 +52,3 @@ export async function addContact(name, email, phone) {
     return null
   }
 }
-
-console.log(await addContact('Lana', 'email@gmail.com', 12344567688))
