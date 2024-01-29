@@ -3,7 +3,7 @@ import * as path from 'path'
 import * as crypto from 'crypto';
 
 const fileName = 'contacts.json'
-const dirPath = './src/db'
+const dirPath = './db'
 const contactsPath = path.join(dirPath, fileName)
 
 export async function listContacts() {
